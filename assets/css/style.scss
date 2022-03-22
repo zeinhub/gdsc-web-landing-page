@@ -5,6 +5,40 @@ body {
   font-family: $quicksand;
 }
 
+#tentang,
+#sejarah,
+#visi,
+#misi,
+#proker,
+#struktur,
+#event,
+#artikel {
+  .text-color,
+  h2,
+  h4 {
+    font-weight: bold;
+  }
+}
+
+.text-color {
+  color: orange;
+}
+
+.garis {
+  border-bottom: 3px solid orangered;
+  width: 100px;
+  margin: 25px auto 50px auto;
+}
+
+.btn-color {
+  background-color: orange;
+  color: white;
+  &:hover {
+    background-color: rgb(221, 145, 5);
+    color: white;
+  }
+}
+
 .navbar-brand {
   display: grid;
   grid-template-columns: max-content max-content;
@@ -53,7 +87,7 @@ body {
   .img-post {
     width: 100%;
     height: 100%;
-    background-size: cover;
+    // background-size: cover;
     border-radius: 10px;
     // background: url("https://wallpaperaccess.com/full/707709.jpg");
   }

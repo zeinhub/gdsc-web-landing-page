@@ -3,6 +3,53 @@ body {
   font-family: "Quicksand", sans-serif;
 }
 
+#tentang .text-color,
+#tentang h2,
+#tentang h4,
+#sejarah .text-color,
+#sejarah h2,
+#sejarah h4,
+#visi .text-color,
+#visi h2,
+#visi h4,
+#misi .text-color,
+#misi h2,
+#misi h4,
+#proker .text-color,
+#proker h2,
+#proker h4,
+#struktur .text-color,
+#struktur h2,
+#struktur h4,
+#event .text-color,
+#event h2,
+#event h4,
+#artikel .text-color,
+#artikel h2,
+#artikel h4 {
+  font-weight: bold;
+}
+
+.text-color {
+  color: orange;
+}
+
+.garis {
+  border-bottom: 3px solid orangered;
+  width: 100px;
+  margin: 25px auto 50px auto;
+}
+
+.btn-color {
+  background-color: orange;
+  color: white;
+}
+
+.btn-color:hover {
+  background-color: #dd9105;
+  color: white;
+}
+
 .navbar-brand {
   display: -ms-grid;
   display: grid;
@@ -44,7 +91,6 @@ body {
 .post-wrapper .img-post {
   width: 100%;
   height: 100%;
-  background-size: cover;
   border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */
